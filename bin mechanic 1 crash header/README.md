@@ -8,6 +8,7 @@ My buddy who uses 64-bit Ubuntu as his OS modified this file to get it past a fi
 
 For this one, the header of the given file needed to be modified from PNG to ELF.
 
+<img width="1344" alt="bin1" src="https://user-images.githubusercontent.com/1743650/234161902-e4b9ed69-b674-4d71-8fad-f7082da4a0d3.png">
 
 ```console
 $ ./bin1 -c
