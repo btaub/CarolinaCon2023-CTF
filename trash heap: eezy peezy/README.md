@@ -26,6 +26,8 @@ Welcome to the Trash Heap!
 
 The working exploit was to allocate 3 heaps - 0,1,2, then overflow the heap 0, and finally attempt to print out heap 1. The part of this that hung me up was using iTerm2 to execute this against the remote system. For some reason that I haven't looked into yet, iTerm2 stopped accepting input after ~1k chars.
 
+![flag](https://user-images.githubusercontent.com/1743650/234162624-fe1d39dd-ed49-4fb7-a065-c14735d7a8e4.png)
+
 ```console
 ┌──(kali㉿kali)-[~/Downloads]
 └─$ ./trash
