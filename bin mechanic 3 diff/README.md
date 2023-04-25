@@ -5,7 +5,7 @@ Binary files bin3.1 and bin3.2 differ
 
 Took the easy road and used bindiff.py to output the flag:
 
-```python
+```shell
 % python3 bindiff.py -l artifcats/bin3.1 artifcats/bin3.2
 Result of comparison: content
 File 1 length:  10280096
