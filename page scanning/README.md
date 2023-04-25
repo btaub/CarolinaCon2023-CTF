@@ -10,7 +10,7 @@ cat paper hack steel robot strike bottle mute drum static horse cherry storm
 
 ---
 
-Used ffuf to scan the site and find the hidden endpoint:
+Used ffuf to scan the site using the provided words as a dictionary, and find the hidden endpoint:
 
 
 
@@ -33,3 +33,5 @@ storm
 └─$ ffuf -v -w page-scanning-carolinaCon2023:W1 -w page-scanning-carolinaCon2023:W2 -w page-scanning-carolinaCon2023:W3 -u http://192.81.216.59/W1.W2.W3/ 
 
 ```
+![PageScanning-flag](https://user-images.githubusercontent.com/1743650/234162263-19c6083f-7b93-437c-9cce-56c8e1175ede.png)
+
